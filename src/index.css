@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.product-card{
+  
+  background-color: whitesmoke;
+  margin-left: 4%;
+  margin-right: 10px;
+  border-radius: 5%;
+  /* background-color: rgb(250, 251, 251); */
+  /*make the background cover the entire card*/
+  
+}
+#parent-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap:1rem;
+}
+li{
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+}
+.flex-me{
+  width:85%;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+}
+#header-parent-flex{
+  display: flex;
+  justify-content: space-around;
+  
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.soda-image{
+  width:200px;
+  aspect-ratio: 1/1;
+  border-radius: 5%;
+}
+.soda-price{
+  display: block;
+  font-size: large;
+  /*bold*/
+  font-weight: bold;
+}
